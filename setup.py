@@ -4,6 +4,13 @@ import os
 
 base = os.path.dirname(os.path.realpath(__file__))
 
+
+print(".............................")
+print(".............................")
+print(".............................")
+print(".............................")
+print("Installing packages from requirements.txt")
+
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
@@ -32,11 +39,6 @@ gdown.download(url, output, quiet=False)
 print("File downloaded!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 
-print(".............................")
-print(".............................")
-print(".............................")
-print(".............................")
-print("Installing packages from requirements.txt")
 
 
 
