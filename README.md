@@ -15,3 +15,4 @@ This repo consists of jupyter notebooks and actual handwritten notes for machine
 ```console
 foo@bar:~$ python3 setup.py
 ```
+Check ./HandWrittenNotes after running the setup.py script. 
