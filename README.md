@@ -1,7 +1,5 @@
 ![alt text](https://user-images.githubusercontent.com/33256063/108596120-155dc200-73ab-11eb-9331-81fa1b96fb50.png)
 
-<<<<<<< HEAD
-
 # Machine_Learning_Notes
 This repo consists of jupyter notebooks and actual handwritten notes for machine learning and mathematics. 
 
