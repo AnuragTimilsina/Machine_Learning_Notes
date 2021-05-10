@@ -1,9 +1,19 @@
-import gdown
 import subprocess
 import sys
 import os
 
 base = os.path.dirname(os.path.realpath(__file__))
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+
+with open("requirements.txt") as requirements:
+    requirements = requirements.readlines()[0]
+    install(requirements)
+
+
+import gdown
 
 # Linear Algebra Notes
 print("Downloading handwritten note files!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
@@ -27,15 +37,6 @@ print(".............................")
 print(".............................")
 print(".............................")
 print("Installing packages from requirements.txt")
-
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-
-with open("requirements.txt") as requirements:
-    requirements = requirements.readlines()[0]
-    install(requirements)
 
 
 
