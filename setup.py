@@ -38,7 +38,13 @@ output = os.path.join(
 gdown.download(url, output, quiet=False)
 print("File downloaded!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
-
+#Classification
+print("Downloading handwritten note files!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+url = 'https://drive.google.com/uc?id=1rMdoXi1eNBV76l59qLon6hrR9yrRFNOE'
+output = os.path.join(
+    base, "./HandWrittenNotes/ML_Algorithms_notes/Classification.pdf")
+gdown.download(url, output, quiet=False)
+print("File downloaded!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 
 
