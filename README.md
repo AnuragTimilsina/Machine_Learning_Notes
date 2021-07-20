@@ -1,7 +1,7 @@
 ![alt text](https://user-images.githubusercontent.com/33256063/108596120-155dc200-73ab-11eb-9331-81fa1b96fb50.png)
 
 # Machine_Learning_Notes
-This repo consists of jupyter notebooks and actual handwritten notes for machine learning and mathematics. I documented this repo for my personal reference, but why not share it with aspiring data scientists and engineers? :) Feel free to contribute if you're a pro! ;)
+This repo consists of jupyter notebooks and actual handwritten notes for machine learning and mathematics. I documented this repo for my personal reference, but why not share it with aspiring data scientists and engineers? :) Feel free to contribute if you're a pro! ;) (Fork this repo, make changes, and make a pull request!)
 
 # Objective
 * Facilitate the learning of core ML algorithms and its maths.
